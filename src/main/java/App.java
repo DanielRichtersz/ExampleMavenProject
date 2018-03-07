@@ -1,6 +1,6 @@
 public class App {
         public String getGreeting() {
-            return "Application runs";
+            return "Application runs, now with automated building on Git push";
         }
 
         public static void main(String[] args) {
