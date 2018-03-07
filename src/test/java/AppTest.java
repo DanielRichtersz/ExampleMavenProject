@@ -6,7 +6,7 @@ public class AppTest {
     @Test public void testAppHasGreeting() throws Exception {
         App testApp = new App();
         System.out.print("Start testAppHasGreeting");
-        assertTrue("Values must be the same", (testApp.getGreeting() == "Application runs"));
+        assertTrue("Values must be the same", (testApp.getGreeting() == "Application runs, now with automated building on Git push"));
 
     }
 }
