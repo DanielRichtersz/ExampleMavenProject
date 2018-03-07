@@ -7,5 +7,6 @@ public class AppTest {
         App testApp = new App();
         System.out.print("Start testAppHasGreeting");
         assertTrue("Values must be the same", (testApp.getGreeting() == "Application runs"));
+
     }
 }
