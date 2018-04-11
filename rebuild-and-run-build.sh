@@ -1,5 +1,5 @@
 #!/bin/bash
-git pull
+
 docker rm build-name
 docker restart build-name
 docker rmi build-name
